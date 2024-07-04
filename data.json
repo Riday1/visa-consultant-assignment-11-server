@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Tourist",
+        "img": "https://i.insider.com/5ceed04ff2f4796f394cea13?width=700",
+        "price": "5000",
+        "ratings": "4.5",
+        "description": "Dreaming of exploring new destinations? Our agency excels in hassle-free tourist visa processing. We handle all the paperwork and liaise with embassies, making your travel plans effortless. Rely on us for a smooth visa experience and start your adventure worry-free. Contact us today for expert assistance!"
+    },
+    {
+        "title": "Student Visa",
+        "img": "https://images.squarespace-cdn.com/content/v1/6571e9be338a904bab762094/1701964237586-BXWTVUNWQOB641ULJUZU/AdobeStock_233296652.jpg",
+        "price": "5000",
+        "ratings": "5",
+        "description": "Ready to study abroad? Our agency specializes in smooth student visa processing. From application to embassy interviews, we manage every step to ensure you can focus on your education. Trust us for expert guidance and a hassle-free experience. Contact us today and start your global academic journey!"
+    },
+    {
+        "title": "Medical Visa",
+        "img": "https://snapcart.global/wp-content/uploads/2021/03/medical-appointment-doctor-healthcare-40568.jpeg",
+        "price": "10000",
+        "ratings": "5",
+        "description": "Planning medical travel abroad? Our agency specializes in seamless medical visa processing, ensuring your journey is stress-free. From documentation to embassy liaison, trust us to navigate the complexities, so you can focus on your health. Contact us today for expert assistance."
+    },
+    {
+        "title": "Migration Visa",
+        "img": "https://assets-us-01.kc-usercontent.com/fa776f1a-4d27-4a6b-ae1c-2ce928f9647d/3a12429d-d0bd-439f-b72c-6f267fc73c65/global-employee-movement_cropped.jpg",
+        "price": "60000",
+        "ratings": "4",
+        "description": "Are you thinking of relocating to a new country? Our agency specializes in efficient migration visa processing. We handle all the paperwork, interviews, and legalities, ensuring a smooth transition for you and your family. Rely on our expertise for a hassle-free migration experience. Contact us today for professional assistance!"
+    },
+    {
+        "title": "Family Visa",
+        "img": "https://aramvisas.com/wp-content/uploads/2021/04/v2.jpg",
+        "price": "45000",
+        "ratings": "5",
+        "description": "Reuniting with your loved ones abroad? Our agency specializes in family visa processing, making the complex paperwork and procedures easy for you. We ensure a smooth and quick process, so you can be together sooner. Trust our experts for reliable service. Contact us today for a hassle-free experience!"
+    },
+    {
+        "title": "Business Visa",
+        "img": "https://ms-smasterintl.com/wp-content/uploads/2022/04/business-visa-application.jpg",
+        "price": "20000",
+        "ratings": "5",
+        "description": "Expanding your business internationally? Our agency specializes in seamless business visa processing. We handle the paperwork, embassy appointments, and legalities, ensuring a smooth and efficient process. Focus on your business growth while we manage the rest. Contact us today for expert assistance!"
+    },
+    {
+        "title": "Visit Visa",
+        "img": "https://friendsnrc.org/wp-content/uploads/home-visit.jpg",
+        "price": "10500",
+        "ratings": "5",
+        "description": "Planning a visit abroad? Our agency specializes in hassle-free visit visa processing. From paperwork to embassy appointments, we manage every detail, ensuring a smooth and quick process. Trust us to handle the complexities so you can enjoy your trip. Contact us today for expert assistance!"
+    }
+]
