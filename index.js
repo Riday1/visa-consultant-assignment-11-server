@@ -87,6 +87,30 @@ async function run() {
             res.send(result)
         })
 
+        //get review by id
+        app.get('/review/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: new ObjectId(id) }
+            const result = await reviewsCollection.findOne(query);
+            res.send(result);
+            // console.log(query)
+        })
+        //update review 
+        app.patch('/reviews/:id', async (req, res) => {
+            const id = req.params.id;
+            const data = req.body;
+            const filter = { _id: new ObjectId(id) }
+            const options = { upsert: true };
+            const updateDoc = {
+                $set: {
+                    text: data.text,
+                    ratings: data.ratings
+                },
+            };
+            const result = await reviewsCollection.updateOne(filter, updateDoc, options);
+            res.send(result)
+
+        })
         // get user  review by "email"
         app.get('/my-reviews', async (req, res) => {
             const email = req.query.email
@@ -96,6 +120,8 @@ async function run() {
             res.send(myReviews)
 
         })
+
+
 
     } finally {
 
