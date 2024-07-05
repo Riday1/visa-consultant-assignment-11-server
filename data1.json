@@ -1,17 +1,26 @@
 [
     {
         "name": "Shanto",
+        "img": "https://st.depositphotos.com/2931363/4881/i/450/depositphotos_48813857-stock-photo-confident-it-expert.jpg",
         "age": 26,
         "address": "bangladesh"
     },
     {
-        "name": "Ridoy",
+        "name": "Ridoy Hossain",
+        "img": "https://img.freepik.com/free-photo/candid-shot-successful-male-with-thick-beard-uses-modern-technology-work_273609-8194.jpg",
         "age": 26,
         "address": "bangladesh"
     },
     {
-        "name": "Shshir",
+        "name": "Arnob Shishir",
+        "img": "https://img.freepik.com/free-photo/elegant-businessman-office_155003-9641.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1720051200&semt=ais_user",
         "age": 26,
         "address": "bangladesh"
+    },
+    {
+        "name": "Jems Bond",
+        "img": "https://img.freepik.com/free-photo/young-handsome-cheerful-confident-businessman-sitting-table-working-laptop-with-cup-coffee-aside-smiling-white-modern-office-interior_176420-6523.jpg",
+        "age": 26,
+        "address": "England"
     }
 ]
