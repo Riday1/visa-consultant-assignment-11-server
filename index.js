@@ -79,6 +79,14 @@ async function run() {
             res.send(result)
         })
 
+        //delete single review
+        app.delete('/reviews/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: new ObjectId(id) }
+            const result = await reviewsCollection.deleteOne(query);
+            res.send(result)
+        })
+
         // get user  review by "email"
         app.get('/my-reviews', async (req, res) => {
             const email = req.query.email
