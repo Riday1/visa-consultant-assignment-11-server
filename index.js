@@ -121,6 +121,15 @@ async function run() {
 
         })
 
+        // add service 
+        app.post('/add-new-services', async (req, res) => {
+            const newService = req.body;
+            console.log(newService)
+            const result = await serviceCollection.insertOne(newService)
+            console.log(result)
+            res.send(result)
+        })
+
 
 
     } finally {
